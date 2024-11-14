@@ -1,0 +1,29 @@
+Comandos para crear un entorno virtual: 
+
+1. py -m pip install virtualenv
+2. py -m virtualenv "nombre" en este caso es python_modules
+
+cuando no sale el nombre en el bash debemos hacer lo siguiente:
+
+source nombre_de_tu_env/Scripts/activate
+
+instalaciones:
+
+pip install flask
+pip install flask-sqlalchemy
+pip install flask-marshmallow
+pip install marshmallow-sqlalchemy
+
+Para conectarnos a la base de datos de mysql necesitamos un driver, se instala asi:
+
+pip install pymysql
+
+
+para correr la app es lo siguiente:
+
+python app/categoria.py
+
+
+
+
+
